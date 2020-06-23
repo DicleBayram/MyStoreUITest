@@ -1,0 +1,46 @@
+Feature: Functionality of Application
+  Scenario: Valid login
+    Given MyStore uygulamasina giris yapilir
+    When Sign in butonuna tiklanir
+    Then Email adres alanina 'dicle@hotmail.com' degeri girilir
+    Then Create an account butonuna tiklanir
+    Then Title olarak Mrs secilir
+    Then First name alanina 'Dicle' yazilir
+    Then Last name alanina 'Bayram' yazilir
+    Then Password alanina 'HepsiBuradaTest123' yazilir
+    Then Days alani '20' secilir
+    Then Months alani '1' ay secilir
+    Then Years alani '1993' secilir
+    Then Your adress alanindaki first name alanina 'Dicle' yazilir
+    Then Your adress alanindaki last name alanina 'Bayram' yazilir
+    Then Company alanina 'CompanyTest' yazilir
+    Then Birinci adres alanina 'AdressTest' yazilir
+    Then City alanina 'CityTest' yazilir
+    Then State alani 'North Carolina' secilir
+    Then Postal Code alanina '28233' yazilir
+    Then Additional information alanina 'Test' yazilir
+    Then Home phone alanina '910 3449236' yazilir
+    Then Mobile phone alanina '704 3449236' yazilir
+    Then Adress alias alanina 'İş adresi' yazilir
+    Then Register butonuna tiklanir
+    Then Anasayfada kullanicinin olustugu dogrulanir
+    Then Dresses sekmesi uzerine gelinerek Summer Dresses menusu secilir
+    Then Herhangi bir urun Add to cart butonuna tiklanarak sepete eklenir
+    Then Continue Shopping butonuna tiklanir
+    Then Search kismina 'Summer' yazilir
+    Then Search butonuna tiklanir
+    Then Sonuc sayfasindan herhangi bir urun sepete eklenir
+    Then Procees to Check out butonuna tiklanir
+    Then Eklenen urunler dogrulanir
+    Then Adress sayfasina gecebilmek icin Proceed to checkout butonuna tiklanir
+    Then Order adress sayfasina gecildigi gorulur
+    Then Shipping alanina gecebilmek icin Proceed to checkout butonuna tiklanir
+    Then Shipping sayfasina gecildigi gorulur
+    Then Kargo secenegi ve hizmet sartlari kabul edilir
+    Then Payment alanina gecebilmek icin Proceed to checkout butonuna tiklanir
+    Then Payment sayfasina gecildigi gorulur
+    Then Odeme ekraninda herhangi bir odeme yontemi secilerek siparis tamamlanir
+    Then I confirm my order butonuna tiklanir
+    Then Kullanici adinin yazildigi customer account butonuna tiklanir
+    Then Order history and details butonuna tiklanir
+    Then Order history and details ekranindan olusturulan siparis kontrol edilir
