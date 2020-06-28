@@ -331,10 +331,6 @@ public class MyStore {
         }
 
         assertEquals(productInfo, productSummaryInfo);
-        //assertEquals(cartProductName, productName);
-
-        //assertEquals(cartProductPrice, productPriceSummer);
-        //assertEquals(cartProductName, productNameSummer);
     }
 
     @Then("^Adress sayfasina gecebilmek icin Proceed to checkout butonuna tiklanir$")
